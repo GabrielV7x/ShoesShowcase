@@ -1,3 +1,6 @@
+body {
+  padding: 80px;
+}
 body .header_container {
   display: flex;
   position: fixed;
@@ -42,5 +45,5 @@ body .header_container .menu_container ul li:hover {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 80px 0 0 0;
 }
