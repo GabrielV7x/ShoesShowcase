@@ -1,7 +1,7 @@
-import React from 'react'
+import PropTypes from 'prop-types';
 
 export default function Card(props) {
-  // console.log(<Card />);
+
   return (
     <div className="card">
       <div className="card-body">
@@ -12,3 +12,9 @@ export default function Card(props) {
     </div>
   )
 }
+
+Card.propTypes = {
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};

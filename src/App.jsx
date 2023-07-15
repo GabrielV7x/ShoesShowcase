@@ -1,6 +1,8 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import Card from './jsx/card'
 import Data from './jsx/data'
+import Header from './jsx/header'
+import Footer from './jsx/footer'
 
 function App() {
   const cardArray= Data.map((card) => {
@@ -16,7 +18,9 @@ function App() {
 
   return (
     <>
-    {cardArray}
+      < Header />
+      {cardArray}
+      < Footer />
     </>
   )
 }
