@@ -1,3 +1,12 @@
 @import 'components/header';
 @import 'components/footer';
 @import 'components/card';
+
+* {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

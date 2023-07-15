@@ -9,10 +9,10 @@ export default function Header() {
 
         <div className="menu_container">
           <ul>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Purchase</li>
+            <li>Account</li>
           </ul>
         </div>
       </div>

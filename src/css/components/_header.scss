@@ -1,0 +1,43 @@
+@import './variables';
+
+body {
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: $black;
+    color: $white;
+    margin: 0 0 30px;
+
+    .logo {
+      height: fit-content;
+      margin: auto 50px ;
+      font-size: 25px;
+
+      &:hover {
+        color: $BrightTurquoise;
+      }
+    }
+
+    .menu_container {
+      margin: 0 2%;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+
+        li {
+          margin: 0 20px 0 ;
+          display: block;
+          font-weight: 400;
+          letter-spacing: 1px;
+
+          &:hover {
+            color:#1ee2e7
+          }
+        }
+      }
+    }
+  }
+}
