@@ -1,17 +1,22 @@
 import { useState } from 'react'
 import Card from './jsx/card'
+import Data from './jsx/data'
 
 function App() {
-  // console.log(<Card />);
+  const cardArray= Data.map((card) => {
+    return (
+      <Card
+        key={card.id}
+        img = {card.img}
+        title = {card.title}
+        text = {card.text}
+      />
+    )
+  })
+
   return (
     <>
-      <Card
-        img = 'src/assets/images/img1.jpg'
-        title="Card title"
-        text="Some quick example text to build on the card title and make up the bulk of the card's content."
-      />
-
-
+    {cardArray}
     </>
   )
 }
