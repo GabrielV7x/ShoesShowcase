@@ -5,6 +5,7 @@ body .header_container {
   display: flex;
   position: fixed;
   top: 0;
+  height: 50px;
   width: 100%;
   justify-content: space-between;
   background-color: #000;
@@ -21,7 +22,7 @@ body .header_container .logo:hover {
   color: #1ee2e7;
 }
 body .header_container .menu_container {
-  margin: 0 2%;
+  margin: auto 2%;
 }
 body .header_container .menu_container ul {
   display: flex;
