@@ -1,0 +1,18 @@
+.footer_container {
+  // position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: $black;
+  color: $white;
+
+  .title {
+    &:hover {
+      color: $BrightTurquoise;
+    }
+
+  }
+}
