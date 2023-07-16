@@ -19,7 +19,10 @@ function App() {
   return (
     <>
       < Header />
-      {cardArray}
+
+      <div className='cards_container'>
+        {cardArray}
+      </div>
       < Footer />
     </>
   )
