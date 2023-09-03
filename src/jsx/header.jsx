@@ -13,6 +13,7 @@ export default function Header() {
             <li>Contact</li>
             <li>Purchase</li>
             <li>Account</li>
+            <li><a href="test.html">Test</a></li>
           </ul>
         </div>
       </div>

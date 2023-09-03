@@ -3,6 +3,7 @@ import Card from './jsx/card'
 import Data from './jsx/data'
 import Header from './jsx/header'
 import Footer from './jsx/footer'
+import Myroutes from './jsx/index'
 
 function App() {
   const cardArray= Data.map((card) => {
@@ -23,6 +24,8 @@ function App() {
       <div className='cards_container'>
         {cardArray}
       </div>
+
+      < Myroutes />
       < Footer />
     </>
   )
